@@ -8,7 +8,6 @@
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
   "dependencies": {
-    "@ckeditor/ckeditor5-alignment": "40.0.0",
     "@ckeditor/ckeditor5-autoformat": "40.0.0",
     "@ckeditor/ckeditor5-basic-styles": "40.0.0",
     "@ckeditor/ckeditor5-block-quote": "40.0.0",
@@ -46,14 +45,12 @@
     "build": "webpack --mode production",
     "postbuild": "tsc --declaration --declarationDir build --stripInternal --emitDeclarationOnly"
   },
-  "files": [
-    "build"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chihua0323/ckeditor5-custom-build.git"
-  }
+    "url": "git+https://github.com/chihua0323/ckeditor5-custom-build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chihua0323/ckeditor5-custom-build/issues"
+  },
+  "homepage": "https://github.com/chihua0323/ckeditor5-custom-build#readme"
 }
